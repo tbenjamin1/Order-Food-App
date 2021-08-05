@@ -24,14 +24,14 @@ const DUMMY_MEALS = [
   },
   {
     id: "m4",
-    name: "Green Bowl", 
+    name: "Green Bowl",
     description: "Healthy...and green...",
     price: 18.99,
   },
 ];
 
 const AvailableMeals = (props) => {
-  // maping our available foods to mealsitem in order to acces each item 
+  // maping our available foods to mealsitem in order to acces each item
   const mealsList = DUMMY_MEALS.map((meal) => (
     <MealsItem
       id={meal.id}
