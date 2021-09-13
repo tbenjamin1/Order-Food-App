@@ -1,7 +1,8 @@
 .form {
     margin: 1rem 0;
-    height: 19rem;
+    height: 15rem;
     overflow: auto;
+    
   }
   
   .control {
@@ -12,6 +13,7 @@
     font-weight: bold;
     margin-bottom: 0.25rem;
     display: block;
+    font-size: 12px;
   }
   
   .control input {
@@ -19,6 +21,7 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 20rem;
+    
     max-width: 100%;
   }
   
